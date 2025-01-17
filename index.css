@@ -1,21 +1,21 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-color: white;
 }
 
 .navbar{
     display: flex;
     justify-content: space-between;
-    background-color: #f9f9f9;
-    align-items: center;
-    padding: 10px 20px;
+    background-color:white;
+    height: 54px;
 
 }
 .logo {
     font-size: 24px;
     font-weight: bold;
     color:black;
+    padding: 10px;
 }
 
 .nav-links {
@@ -32,6 +32,30 @@ body {
     color:black;
     font-size: 18px;
 
+}
+
+.hero-image{
+    display: flex;
+    background-image: url(./HeroImage.jpg);
+    height: 370px;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-container h1{
+    display: flex;
+    justify-content: center;
+}
+.heading-container p{
+    display: flex;
+    justify-content: center;
+}
+
+.heading-container input{
+    display: flex;
+    width: 800px;
+    height: 40px;
+    
 }
 
 
